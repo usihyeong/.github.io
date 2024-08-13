@@ -1,0 +1,64 @@
+table {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 120px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border-top: none;
+}
+.header {
+    
+    background-color: rgb(218, 231, 255);
+    text-align: center;
+}
+.date{
+    border-radius: 0px 20px 0px 0px;
+}
+.num{
+    border-radius: 20px 0px 0px 0px;
+}
+.table td, .table th {
+    
+    border-bottom: 1px lightgray solid; 
+    height: 30px;
+    font-size: 14px;
+}
+.num {
+    width: 50px;
+}
+.title {
+    width: 500px;
+}
+.body {
+    text-align: center;
+}
+.body .title {
+    text-align: left;
+}
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    outline: 1.5px rgb(68, 136, 244) solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: rgb(164, 199, 255);
+}
+button:active {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    outline: 1.5px rgb(27, 76, 155) solid;
+    padding-left: 10px;
+    background-color: rgb(68, 136, 244);
+}
+@media screen and (max-width: 1119px) { 
+   .table{
+    height: 50px;
+    width: 100px;
+    margin-top: 140px;
+   }
+}
